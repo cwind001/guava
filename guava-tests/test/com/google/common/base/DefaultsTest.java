@@ -36,4 +36,8 @@ public class DefaultsTest extends TestCase {
     assertNull(Defaults.defaultValue(void.class));
     assertNull(Defaults.defaultValue(String.class));
   }
+
+  public static void main(String[] args) {
+    System.out.println("Hello Guava!");
+  }
 }
